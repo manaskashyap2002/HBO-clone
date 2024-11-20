@@ -1,0 +1,324 @@
+.header {
+    position: sticky; 
+    top: 0;
+    background-color: rgb(249, 244, 244);
+    display: flex;
+    align-items: center;
+    height: 50px;
+    z-index: 100;
+    margin-right: 2px;
+}
+.btnhead {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between buttons inside .btnhead */
+    margin-left: 350px;
+}
+#logo {
+   margin-left: 100px;
+}
+
+#link {
+    display: flex;
+    gap: 10px; /* Space between links */
+    margin-left: 50px;
+    color: rgba(0, 0, 0, 0.456);
+}
+#link a{
+    font-weight: normal;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.456);
+}
+#MORE {
+    border: none; 
+    outline: none;
+    color: rgba(0, 0, 0, 0.456);
+    /* background: transparent;  */
+    /* appearance: none;  */
+}
+#btn1 button {
+    border: none; 
+    outline: none; 
+    background-color: #f6f8f9;
+    cursor: pointer; 
+    font-size: 16px;
+    border-radius: 5px; /* Make edges rounded */
+    transition: background-color 0.3s ease;
+    padding: 10px 5px;
+}
+
+/* Hover effect for button */
+#btn1 button:hover {
+    background-color: #c4cfdbce;
+    color: #181616; /* Keep text color white */
+    
+}
+
+#btn2 button {
+    border: none; 
+    outline: none; 
+    background-color: #185fb0;
+    color: white;
+    cursor: pointer; 
+    font-size: 16px;
+    border-radius: 5px; /* Make edges rounded */
+    transition: background-color 0.3s ease;
+    padding: 10px 5px;
+    
+}
+
+/* Hover effect for button */
+#btn2 button:hover {
+    background-color:  #083469;
+    
+}
+
+/* ///////////////////////////////////////////////////////////////////////// */
+.dragonimg img{
+   width: 100%;
+   height: 550px;
+   box-sizing: border-box;
+   background-size: cover;
+   position: relative;
+   
+}
+.dragonimg{
+    position: relative;
+}
+
+.dragcontent{
+    position: absolute;
+    bottom: 80px;
+    left: 100px;    
+}
+.dragcontent a{
+    font-weight: 200;
+    text-decoration: none;
+    color: white;
+}
+.dragbutton
+{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 40px;
+    left: 100px;
+    gap: 20px;
+}
+#btn3{
+    border: none; 
+    outline: none; 
+    background-color: #185fb0;
+    color: white;
+    cursor: pointer; 
+    font-size: 16px;
+    border-radius: 5px; 
+    transition: background-color 0.3s ease;
+    padding: 5px 5px;
+}
+
+#btn3 button :hover {
+    background-color: #083469; 
+}
+
+#btn4{
+    border: none; 
+    outline: none; 
+    background-color: #185fb0;
+    color: white;
+    cursor: pointer; 
+    font-size: 16px;
+    border-radius: 5px; /* Make edges rounded */
+    transition: background-color 0.3s ease;
+    padding: 5px 5px;
+}
+
+#btn4 button :hover {
+    background-color: #083469; 
+}
+
+.Str h1 {
+    text-align: center; 
+    color: rgb(11, 5, 5);
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* ///////////////////////////////////////////////////////// */
+.scroll {
+    display: flex;
+    overflow-x: auto;
+    gap: 100px; /* Adjust the spacing between items */
+    padding: 10px;
+    scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+.scroll div {
+    min-width: 300px; /* Set a minimum width for each item to control how much space it occupies */
+    max-width: 300px;
+    text-align: center;
+}
+
+.scroll img {
+    width: 120%;
+    height: 200px;
+    object-fit: cover; 
+}
+.scroll p{
+    display: flex;
+    align-items: flex-start;
+    color: #07070792;
+}
+.scroll a{
+    display: flex;
+    align-items: flex-start;
+    font-weight: normal;
+    text-decoration: none;
+    color: #181616;
+}
+.scroll a:hover {
+    text-decoration: underline; 
+}
+.scroll p {
+    margin: 8px 0;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 15px;
+}
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+.schedule {
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: #f0f0f0; /* Adjust color for a light background */
+  }
+  #upper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  #upper a{
+    color: #185fb0;
+    text-decoration: none;
+  }
+  .schedule hr {
+    height: 2px;
+    background-color: #18161676;
+    border: none;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+  }
+  #contd {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+  }
+  
+  .item a{
+    text-align: center;
+    text-decoration: none;
+  }
+  .item a:hover{
+    text-decoration: underline;
+  }
+
+  .item h4 {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .item p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .vertical {
+    border-left: 2px solid #ccc;
+    height: 50px;
+  }
+
+  /* ////////////////////////////////////////////////////////////// */
+
+  .container1{
+    display: flex;
+    background-color: #185fb0;
+    align-items: center;
+    margin-top: 80px;
+  }
+  
+  #imagecnt{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    gap: 20px;
+  }
+  #imagecnt img{
+    border-radius: 10px;
+  }
+  .max{
+    display: flex;
+    flex-direction: column;
+    margin-left:600px;
+    align-items: center;
+    gap: 2px;
+    width: 200px;
+ }
+ .max h1{
+    font-size: 120px;
+    color: white;
+    margin-top: -80px;
+ }
+ .max p{
+    font-size: 30px;
+    color: white;
+    margin-top: -80px;
+ }
+ .max button{
+    padding: 15px;
+    border-radius: 3px;
+ }
+ .max button:hover{
+    cursor: pointer;
+    transition: 1s;
+    background-color: rgba(33, 193, 110, 0.733);
+ }
+
+
+ /* /////////////////////////////////////////////////////////////////////////////////// */
+
+ .foot{
+    display: flex;
+    background-color: #666;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+ }
+.foot img{
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+ 
+ .foot a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+ } 
+ #cont{
+    display: flex;
+    gap: 20px;
+ }
+ #policy{
+    display: flex;
+    gap: 20px;
+ }
